@@ -1,0 +1,19 @@
+.loginIMG{
+    height: 20px;
+    margin:2px;
+    padding:2px
+}
+.form{
+    /* background-color: orange; */
+    width: 40%;
+    padding:20px;
+    margin-left: 200px;
+    border: 1px solid black ;
+    border-radius:5px;
+    /* text-align: center */
+}
+.form2{
+    width: 40%;
+    padding:20px;
+    margin-left: 300px;
+}

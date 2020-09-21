@@ -1,0 +1,22 @@
+.headerImg{
+    height:80px ;
+    margin-left:100px;  
+    padding:20px;
+    
+}
+.image{
+    background-image:url("https://i.ibb.co/qxkc8ZG/Rectangle-1.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.header{
+  
+    margin:10px;
+    padding:30px;
+   background-repeat:no-repeat;
+   background-size: cover;
+}
+.search{
+    margin-right: 300px;
+    
+}
