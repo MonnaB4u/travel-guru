@@ -98,7 +98,7 @@ function Login() {
      <div className="form" style={{textAlign: 'center'}} >
       
       <input type="checkbox" onChange={() => setNewUser(!newUser)} name="newUser" id=""/>
-      <label htmlFor="newUser">New User Sign up</label>
+      <label style={{color: 'white'}} htmlFor="newUser">New User Sign up</label>
      
       <form onSubmit={handleSubmit}>
 
@@ -119,7 +119,7 @@ function Login() {
       <div className="form2">
 
        { user.isSignedIn ? <button onClick={signOut}>Sign Out</button> :
-        <button onClick={googleSignIn}> <img className="loginIMG" src="https://i.ibb.co/Wv3mmHY/google.png" alt=""/> Sign In with Google</button>
+        <button  onClick={googleSignIn}> <img className="loginIMG" src="https://i.ibb.co/Wv3mmHY/google.png" alt=""/> Sign In with Google</button>
       } <br/>
 
     

@@ -15,7 +15,7 @@ const Booking = () => {
         <div className="d-flex justify-content-between" >
          
     {
-           <div>
+           <div className="forms2">
     
             <h1>{book.name}</h1>
              <p>{book.info}</p>
